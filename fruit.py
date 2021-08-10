@@ -7,7 +7,7 @@ class AppleBasket:
         self.apple_quantity += 1
 
     def __str__(self):
-        return f'A basket of {self.apple_quantity} {self.apple_color} apple{"s" if self.apple_quantity != 1 else ""}'
+        return f'A basket of {self.apple_quantity} {self.apple_color} apple{"s" if self.apple_quantity != 1 else ""}.'
 
 
 if __name__ == '__main__':
